@@ -15,5 +15,5 @@ Enter password:
 ### Testing it on a k8s cluster
 
 ```
-kubectl run mysqlc --rm --tty -i --restart='Never' --image sentenza/mysql-client --command -- /bin/bash
+kubectl run mysqlc --rm --tty -i --restart='Never' --image sentenzas/mysql-client --command -- /bin/bash
 ```
